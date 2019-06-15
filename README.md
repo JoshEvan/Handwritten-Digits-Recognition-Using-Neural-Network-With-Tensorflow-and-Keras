@@ -90,5 +90,5 @@ conda install -c conda-forge tensorflow
 python handwrittenRec.py
 ```
 ## Result
-![Result Image](/results/handwrittenRec.png)
+![Result Image](/handwrittenRec.png)
 
