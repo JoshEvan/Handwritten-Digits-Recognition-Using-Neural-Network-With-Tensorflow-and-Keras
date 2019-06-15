@@ -41,14 +41,19 @@ The code is divided into 5 sections:
 3. #### Section 3
    Build the Prediction Model
    The model is built with sparse_categorical_crossentropy loss function and adam optimizer.
+   
    Loss function is used to tell us how good our current model is.
+   
    The Optimizer then generate a new guess of model if the Loss function tell us that this current model is not good enough and still need improvement.
+   
    The sparse_categorical_crossentropy loss functionis usually used when our output classes are mutually exclusive, such as in this dataset.
    
 5. #### Section 4
    Train the Prediciton Model
-   Training the model with 70,000 training images
+   Training the model with 70,000 training images.
+   
    A supervised learning, where we put the image and also the label which denotes the answer of the current image.
+   
    We train the data within maximum of 10 iterations, which will be automatically stopped when the model reached 99% accuarcy.
 7. #### Section 5
    Test the Prediciton Model
