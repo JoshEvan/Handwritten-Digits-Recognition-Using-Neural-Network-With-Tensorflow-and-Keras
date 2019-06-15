@@ -90,5 +90,5 @@ conda install -c conda-forge tensorflow
 python handwrittenRec.py
 ```
 ## Result
-![Result Image](/handwrittenRec.png)
+![Result Image](https://raw.githubusercontent.com/JoshEvan/Handwritten-Digits-Recognition-Using-Neural-Network-With-Tensorflow-and-Keras/master/handwrittenRec.PNG)
 
